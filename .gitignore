@@ -1,0 +1,13 @@
+# Ignore input and output directories
+input/*
+output/*
+# Ignore private vars file:
+private.py
+# Ignore params file
+params.py
+# Ignore shscripts/developing folder
+development/*
+# Ignore pycache
+__pycache__/*
+# Ignore .vscode
+.vscode/*
