@@ -8,7 +8,8 @@ Included in the distribution is an example params template that can be used to g
 The TESTING variable tells the program to run on a manually specified set of sites. These should
 be specified in a file called "site_ip_port.csv" and the format should be:
 
-Site Code,IP,Port\n
+Site Code,IP,Port
+
 SITE,XXX.XXX.XXX.XXX,22
 
 It cannot contain null values.
@@ -16,9 +17,11 @@ It cannot contain null values.
 
 Other required files to run:
 
-params.py\n
-private.py\n
-input/testing_ips.csv    (Only required if TESTING is true)\n
+params.py
+
+private.py
+
+input/testing_ips.csv    (Only required if TESTING is true)
 
 
 I have included templates of the params.py and private.py, but they should be customized for you.
