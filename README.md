@@ -9,6 +9,7 @@ The TESTING variable tells the program to run on a manually specified set of sit
 be specified in a file called "site_ip_port.csv" and the format should be:
 
 Site Code,IP,Port
+
 SITE,XXX.XXX.XXX.XXX,22
 
 It cannot contain null values.
